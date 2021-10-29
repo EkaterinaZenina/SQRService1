@@ -6,7 +6,7 @@ public class SQRService {
         int counter = 0;
         for (int i = 10; i <= 99; i++) {
             int sqr = i * i;
-            if (sqr >= UpperNumber && sqr <= UnderNumber) {
+            if (sqr >= UnderNumber && sqr <=  UpperNumber  ) {
                 int сounter = counter + 1;
             }
         }
